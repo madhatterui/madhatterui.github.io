@@ -1,0 +1,15 @@
+.headimg {
+    float: left;
+}
+.builds {
+    display: flex;
+}
+.coreTal {
+    flex-grow:20%;
+}
+.buildTal {
+    flex:20%;
+}
+.rotbody {
+    font-size: small;
+}

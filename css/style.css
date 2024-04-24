@@ -1,0 +1,12 @@
+.headimg {
+    float: left;;
+}
+.talents {
+    width: auto;
+}
+.corebody {
+    display:flex
+}
+.row {
+    display:flex;
+}

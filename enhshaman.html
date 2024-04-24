@@ -1,13 +1,245 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-  </head>
-  <body>
-    <h1>Hello, world! Test</h1>
-  </body>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Enhance Shaman 10.2.7</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/custom.css" />
+  <script>const whTooltips = { colorLinks: true, iconizeLinks: true, renameLinks: true };</script>
+  <script src="https://wow.zamimg.com/js/tooltips.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="headimg">
+      <img src="img\shmIcon.png">
+    </div>
+    <div class="textimg">
+      <h1>Shaman 10.2.7</h1>
+    </div>
+    <div class="container">
+
+      <h4 class="display-5">Talent Builds</h4>
+      <div class="builds">
+        <div class="buildBody">
+          <img src="img\coreTal.jpg" class="img-fluid" alt="core talents" style="width:40%"><img src="img\buildTal.jpg"
+            class="img-fluid" alt="core talents" style="width:40%">
+        </div>
+      </div>
+      <p><small>Both <a href="https://www.wowhead.com/spell=974"></a> and <a
+            href="https://www.wowhead.com/spell=1064"></a> can be swapped if not in need of defense</p>
+      <a href="https://www.wowhead.com/talent-calc/shaman/enhancement/DAPVFUVBBAQSKIRFJRCBANUShVFGAEgVKgUBE"
+        target="_blank" class="btn btn-danger">Single Target (Raid)</a>
+      <a href="https://www.wowhead.com/talent-calc/shaman/enhancement/DAPVFUVRBFQSKIRFBQDAEANUSgVBGEEhVKgUBA"
+        target="_blank" class="btn btn-danger">AoE (M+)</a></small>
+    </div>
+    <p></p>
+    <div class="container">
+      <div class="header">
+        <h4 class="display-5">M+Options</h4>
+      </div>
+      <div class="mOptions">
+        <ul class="list-group">
+          <li class="list-group-item">Algeth'ar Academy: <a href="https://www.wowhead.com/spell=370"></a><a
+              href="https://www.wowhead.com/spell=8143"></a></li>
+          <li class="list-group-item">Brackenhide Hollow: standard AoE</li>
+          <li class="list-group-item">Halls of Infusion: <a href="https://www.wowhead.com/spell=383013"></a></li>
+          <li class="list-group-item">Neltharus: <a href="https://www.wowhead.com/spell=234893"></a></li>
+          <li class="list-group-item">Ruby Life Pools: standard AoE</li>
+          <li class="list-group-item">The Azure Vault: <a href="https://www.wowhead.com/spell=8143"></a></li>
+          <li class="list-group-item">The Nokhud Offensive: <a href="https://www.wowhead.com/spell=8143"></a></li>
+          <li class="list-group-item">Uldaman: <a href="https://www.wowhead.com/spell=383013"></a><a
+              href="https://www.wowhead.com/spell=234893"></a></li>
+        </ul>
+      </div>
+    </div>
+    <p></p>
+    <div class="container">
+      <div class="header">
+        <h4 class="display-5">Rotations</h4>
+      </div>
+      <div class="rotbody">
+        <div class="opener">
+          <p>opener -> 
+          <a href="https://www.wowhead.com/spell=8512"></a> -> <a href="https://www.wowhead.com/spell=375982"></a> -> <a href="https://www.wowhead.com/spell=51533"></a> -> <a href="https://www.wowhead.com/spell=117014"></a> -> <a href="https://www.wowhead.com/spell=60103"></a> -> <a href="https://www.wowhead.com/spell=342240"></a> -> <a href="https://www.wowhead.com/spell=188196"></a> 
+        </div>
+        <p>normal priority</p>
+        <ol id="opener-rotation-ele" class="entity-list">
+          <li data-entity-list-item-target="wft" data-entity-list-item-on-count="1"
+            data-entity-list-item-shown-method="direct" data-entity-list-item-shown="true">
+            <div data-markup-content-target="1">Pre-cast <a
+                href="https://www.wowhead.com/ptr-2/spell=8512/windfury-totem" class="icontiny" data-entity="spell"
+                data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/spell_nature_windfury.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Windfury Totem</span></a> as close as
+              possible to enemies before the pull</div>
+          </li>
+          <li data-entity-list-item-target="t31set1" data-entity-list-item-on-count="1"
+            data-entity-list-item-shown-method="direct" data-entity-list-item-shown="true">
+            <div data-markup-content-target="1">Cast <a
+                href="https://www.wowhead.com/ptr-2/spell=375982/primordial-wave" class="icontiny" data-entity="spell"
+                data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/ability_maldraxxus_shaman.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Primordial Wave</span></a> on the way into
+              melee.</div>
+          </li>
+          <li data-entity-list-item-target="fls" data-entity-list-item-off-count="1"
+            data-entity-list-item-shown-method="direct" data-entity-list-item-shown="false">
+            <div data-markup-content-target="1">Cast <a href="https://www.wowhead.com/ptr-2/spell=188389/flame-shock"
+                class="icontiny" data-entity="spell" data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/spell_fire_flameshock.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Flame Shock</span></a> on the way into
+              melee.</div>
+          </li>
+          <li data-entity-list-item-target="fls-2" data-entity-list-item-on-count="1"
+            data-entity-list-item-shown-method="direct" data-entity-list-item-shown="true">
+            <div data-markup-content-target="1">Cast <a href="https://www.wowhead.com/ptr-2/spell=188389/flame-shock"
+                class="icontiny" data-entity="spell" data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/spell_fire_flameshock.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Flame Shock</span></a>&nbsp;<span
+                class="covenant-venthyr"><i>in <b><span class="covenant-venthyr">AoE</span></b></i></span> on an
+              unaffected target</div>
+          </li>
+          <li data-entity-list-item-target="wolves">
+            <div data-markup-content-target="1">Cast <a href="https://www.wowhead.com/ptr-2/spell=51533/feral-spirit"
+                class="icontiny" data-entity="spell" data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/spell_shaman_feralspirit.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Feral Spirit</span></a></div>
+          </li>
+          <li data-entity-list-item-target="lash">
+            <div data-markup-content-target="1">Cast <a href="https://www.wowhead.com/ptr-2/spell=60103/lava-lash"
+                class="icontiny" data-entity="spell" data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/ability_shaman_lavalash.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Lava Lash</span></a> to apply <a
+                href="https://www.wowhead.com/ptr-2/spell=334046/lashing-flames" class="icontiny" data-entity="spell"
+                data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/spell_shaman_improvelavalash.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Lashing Flames</span></a> and spread <a
+                href="https://www.wowhead.com/ptr-2/spell=188389/flame-shock" class="icontiny" data-entity="spell"
+                data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/spell_fire_flameshock.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Flame Shock</span></a></div>
+          </li>
+          <li data-entity-list-item-target="pwave1" data-entity-list-item-off-count="1"
+            data-entity-list-item-shown-method="direct" data-entity-list-item-shown="false">
+            <div data-markup-content-target="1">Cast <a
+                href="https://www.wowhead.com/ptr-2/spell=375982/primordial-wave" class="icontiny" data-entity="spell"
+                data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/ability_maldraxxus_shaman.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Primordial Wave</span></a> (<span
+                class="covenant-venthyr"><i>in <b><span class="covenant-venthyr">AoE</span></b></i></span>: ideally to
+              an enemy not affected by <a href="https://www.wowhead.com/ptr-2/spell=188389/flame-shock" class="icontiny"
+                data-entity="spell" data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/spell_fire_flameshock.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Flame Shock</span></a>)</div>
+          </li>
+          
+          <li data-entity-list-item-target="eleb" data-entity-list-item-on-count="1"
+            data-entity-list-item-shown-method="direct" data-entity-list-item-shown="true">
+            <div data-markup-content-target="1">Cast <a
+                href="https://www.wowhead.com/ptr-2/spell=117014/elemental-blast" class="icontiny" data-entity="spell"
+                data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/shaman_talent_elementalblast.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Elemental Blast</span></a>&nbsp;<span
+                class="c8"><i>in <b><span class="c8">single</span></b> target</i></span> with your first 10 <a
+                href="https://www.wowhead.com/ptr-2/spell=187880/maelstrom-weapon" class="icontiny" data-entity="spell"
+                data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/spell_shaman_maelstromweapon.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Maelstrom Weapon</span></a></div>
+          </li>
+          <li data-entity-list-item-target="pwave2">
+            <div data-markup-content-target="1">Cast <a href="https://www.wowhead.com/ptr-2/spell=188196/lightning-bolt"
+                class="icontiny" data-entity="spell" data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/spell_nature_lightning.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Lightning Bolt</span></a> once you reach
+              <b>8-10 Maelstrom</b> to spend <a href="https://www.wowhead.com/ptr-2/spell=375982/primordial-wave"
+                class="icontiny" data-entity="spell" data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/ability_maldraxxus_shaman.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Primordial Wave</span></a></div>
+          </li>
+          <li data-entity-list-item-target="crash1" data-entity-list-item-on-count="0"
+            data-entity-list-item-shown-method="direct" data-entity-list-item-shown="false">
+            <div data-markup-content-target="1">Cast <a
+                href="https://www.wowhead.com/ptr-2/spell=187874/crash-lightning" class="icontiny" data-entity="spell"
+                data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/spell_shaman_crashlightning.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Crash Lightning</span></a>&nbsp;<span
+                class="covenant-venthyr"><i>in <b><span class="covenant-venthyr">AoE</span></b></i></span> to get the
+              buff active</div>
+          </li>
+          <li data-entity-list-item-target="is" data-entity-list-item-off-count="0"
+            data-entity-list-item-shown-method="direct" data-entity-list-item-shown="true">
+            <div data-markup-content-target="1">Cast <a href="https://www.wowhead.com/ptr-2/spell=342240/ice-strike"
+                class="icontiny" data-entity="spell" data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/spell_frost_frostbolt.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Ice Strike</span></a></div>
+          </li>
+          <li data-entity-list-item-target="nova" data-entity-list-item-on-count="0"
+            data-entity-list-item-shown-method="direct" data-entity-list-item-shown="false">
+            <div data-markup-content-target="1">Cast <a href="https://www.wowhead.com/ptr-2/spell=333974/fire-nova"
+                class="icontiny" data-entity="spell" data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/spell_shaman_improvedfirenova.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Fire Nova</span></a>&nbsp;<span
+                class="covenant-venthyr"><i>in <b><span class="covenant-venthyr">AoE</span></b></i></span></div>
+          </li>
+          <li data-entity-list-item-target="hs" data-entity-list-item-off-count="0"
+            data-entity-list-item-shown-method="direct" data-entity-list-item-shown="true">
+            <div data-markup-content-target="1">Cast <a href="https://www.wowhead.com/ptr-2/spell=196840/frost-shock"
+                class="icontiny" data-entity="spell" data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/spell_frost_frostshock.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Frost Shock</span></a> to spend <a
+                href="https://www.wowhead.com/ptr-2/spell=334195/hailstorm" class="icontiny" data-entity="spell"
+                data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/spell_frost_icestorm.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Hailstorm</span></a></div>
+          </li>
+          <li data-entity-list-item-target="lash">
+            <div data-markup-content-target="1">Cast <a href="https://www.wowhead.com/ptr-2/spell=60103/lava-lash"
+                class="icontiny" data-entity="spell" data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/ability_shaman_lavalash.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Lava Lash</span></a></div>
+          </li>
+          <li data-entity-list-item-target="ss">
+            <div data-markup-content-target="1">Cast <a href="https://www.wowhead.com/ptr-2/spell=17364/stormstrike"
+                class="icontiny" data-entity="spell" data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/ability_shaman_stormstrike.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Stormstrike</span></a> if nothing else is
+              ready</div>
+          </li>
+          <li data-entity-list-item-target="t30set2" data-entity-list-item-on-count="0"
+            data-entity-list-item-shown-method="direct" data-entity-list-item-shown="false">
+            <div data-markup-content-target="1">Cast <a
+                href="https://www.wowhead.com/ptr-2/spell=188443/chain-lightning" class="icontiny" data-entity="spell"
+                data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/spell_nature_chainlightning.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Chain Lightning</span></a> at <b>5+
+                Maelstrom</b> to consume <a href="https://www.wowhead.com/ptr-2/spell=409834/crackling-thunder"
+                class="icontiny" data-entity="spell" data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/ability_vehicle_electrocharge.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Crackling Thunder</span></a></div>
+          </li>
+          <li data-entity-list-item-target="lvb" data-entity-list-item-off-count="1"
+            data-entity-list-item-shown-method="direct" data-entity-list-item-shown="false">
+            <div data-markup-content-target="1">Cast <a href="https://www.wowhead.com/ptr-2/spell=51505/lava-burst"
+                class="icontiny" data-entity="spell" data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/spell_shaman_lavaburst.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Lava Burst</span></a> as soon as you reach
+              5+ <a href="https://www.wowhead.com/ptr-2/spell=187880/maelstrom-weapon" class="icontiny"
+                data-entity="spell" data-entity-has-icon="true"><img
+                  src="https://wow.zamimg.com/images/wow/icons/tiny/spell_shaman_maelstromweapon.gif" loading="lazy"
+                  style="vertical-align: middle;"> <span class="tinyicontxt">Maelstrom Weapon</span></a> stacks</div>
+          </li>
+          <li>
+            <div data-markup-content-target="1">Proceed onto the normal priority list</div>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+  </div>
+</body>
+
 </html>
